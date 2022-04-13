@@ -1,0 +1,180 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<CommandTable xmlns="http://schemas.microsoft.com/VisualStudio/2005-10-18/CommandTable" xmlns:xs="http://www.w3.org/2001/XMLSchema">
+<Extern href="stdidcmd.h"/>
+<Extern href="vsshlids.h"/>
+<Include href="KnownImageIds.vsct"/>
+<Include href="VSGlobals.vsct"/>
+<Commands package="ElimarSoft_com_VSIX_Template">
+
+<Groups>
+  <Group guid="ElimarSoft_com_VSIX_Template" id="IDG_ES_ADDINS_GRP1" priority="100">
+    <Parent guid="guidSHLMainMenu" id="IDM_VS_MENU_ADDINS"/>
+  </Group>
+  <Group guid="ElimarSoft_com_VSIX_Template" id="IDG_ES_ADDINS_GRP1_MENU1_GRP1" priority="100">
+    <Parent guid="ElimarSoft_com_VSIX_Template" id="IDG_ES_ADDINS_GRP1_MENU1"/>
+  </Group>
+  <Group guid="ElimarSoft_com_VSIX_Template" id="IDM_ES_CONTEXT_MENU1_GRP1" priority="100">
+    <Parent guid="ElimarSoft_com_VSIX_Template" id="IDM_ES_CONTEXT_MENU1"/>
+  </Group>
+  <Group guid="ElimarSoft_com_VSIX_Template" id="IDM_ES_CONTEXT_MENU2_GRP1" priority="100">
+    <Parent guid="ElimarSoft_com_VSIX_Template" id="IDM_ES_CONTEXT_MENU2"/>
+  </Group>
+</Groups>
+
+<Menus>
+  <Menu guid="ElimarSoft_com_VSIX_Template" id="IDG_ES_ADDINS_GRP1_MENU1" priority="100" type="Menu">
+    <Parent guid="ElimarSoft_com_VSIX_Template" id="IDG_ES_ADDINS_GRP1"/>
+      <Strings>
+        <ButtonText>Elimar Soft</ButtonText>
+      </Strings>
+  </Menu>
+  <Menu guid="ElimarSoft_com_VSIX_Template" id="IDM_ES_CONTEXT_MENU1" priority="100" type="Context">
+    <Parent guid="guidSHLMainMenu" id="IDG_VS_CODEWIN_MARKER"/>
+      <Strings>
+        <ButtonText>Code Duplicator</ButtonText>
+      </Strings>
+  </Menu>
+  <Menu guid="ElimarSoft_com_VSIX_Template" id="IDM_ES_CONTEXT_MENU2" priority="100" type="Context">
+    <Parent guid="guidSHLMainMenu" id="IDG_VS_CODEWIN_MARKER"/>
+      <Strings>
+        <ButtonText>Global Commands</ButtonText>
+      </Strings>
+  </Menu>
+</Menus>
+
+<Buttons>
+  <Button guid="ElimarSoft_com_VSIX_Template" id="IDG_ES_ADDINS_GRP1_MENU1_GRP1_BUTTTON1" priority="100" type="Button">
+    <Parent guid="ElimarSoft_com_VSIX_Template" id="IDG_ES_ADDINS_GRP1_MENU1_GRP1"/>
+    <Icon guid="ImageCatalogGuid" id="CSExtension"/>
+    <CommandFlag>IconIsMoniker</CommandFlag>
+    <Strings>
+      <ButtonText>Test Now</ButtonText>
+    </Strings>
+  </Button>
+  <Button guid="ElimarSoft_com_VSIX_Template" id="IDG_ES_ADDINS_GRP1_MENU1_GRP1_BUTTTON2" priority="100" type="Button">
+    <Parent guid="ElimarSoft_com_VSIX_Template" id="IDG_ES_ADDINS_GRP1_MENU1_GRP1"/>
+    <Icon guid="ImageCatalogGuid" id="CSExtension"/>
+    <CommandFlag>IconIsMoniker</CommandFlag>
+    <Strings>
+      <ButtonText>Elimar Subjects</ButtonText>
+    </Strings>
+  </Button>
+  <Button guid="ElimarSoft_com_VSIX_Template" id="IDBI_ES_CONTEXT_BUTTON1" priority="100" type="Button">
+    <Parent guid="guidSHLMainMenu" id="IDG_VS_CODEWIN_MARKER"/>
+    <Icon guid="ImageCatalogGuid" id="CSExtension"/>
+    <CommandFlag>IconIsMoniker</CommandFlag>
+    <Strings>
+      <ButtonText>Insert Braces</ButtonText>
+    </Strings>
+  </Button>
+  <Button guid="ElimarSoft_com_VSIX_Template" id="IDBI_ES_CONTEXT_BUTTON2" priority="100" type="Button">
+    <Parent guid="guidSHLMainMenu" id="IDG_VS_CODEWIN_MARKER"/>
+    <Icon guid="ImageCatalogGuid" id="CSExtension"/>
+    <CommandFlag>IconIsMoniker</CommandFlag>
+    <Strings>
+      <ButtonText>Remove Braces</ButtonText>
+    </Strings>
+  </Button>
+  <Button guid="ElimarSoft_com_VSIX_Template" id="IDBI_ES_CONTEXT_BUTTON3" priority="100" type="Button">
+    <Parent guid="guidSHLMainMenu" id="IDG_VS_CODEWIN_MARKER"/>
+    <Icon guid="ImageCatalogGuid" id="CSExtension"/>
+    <CommandFlag>IconIsMoniker</CommandFlag>
+    <Strings>
+      <ButtonText>Delete Lines</ButtonText>
+    </Strings>
+  </Button>
+  <Button guid="ElimarSoft_com_VSIX_Template" id="IDBI_ES_CONTEXT_BUTTON4" priority="100" type="Button">
+    <Parent guid="guidSHLMainMenu" id="IDG_VS_CODEWIN_MARKER"/>
+    <Icon guid="ImageCatalogGuid" id="CSExtension"/>
+    <CommandFlag>IconIsMoniker</CommandFlag>
+    <Strings>
+      <ButtonText>Format Document</ButtonText>
+    </Strings>
+  </Button>
+  <Button guid="ElimarSoft_com_VSIX_Template" id="IDBI_ES_CONTEXT_BUTTON5" priority="100" type="Button">
+    <Parent guid="guidSHLMainMenu" id="IDG_VS_CODEWIN_MARKER"/>
+    <Icon guid="ImageCatalogGuid" id="CSExtension"/>
+    <CommandFlag>IconIsMoniker</CommandFlag>
+    <Strings>
+      <ButtonText>Test Context</ButtonText>
+    </Strings>
+  </Button>
+  <Button guid="ElimarSoft_com_VSIX_Template" id="IDM_ES_CONTEXT_MENU1_GRP1_BUTTON1" priority="100" type="Button">
+    <Parent guid="ElimarSoft_com_VSIX_Template" id="IDM_ES_CONTEXT_MENU1_GRP1"/>
+    <Icon guid="ImageCatalogGuid" id="CSExtension"/>
+    <CommandFlag>IconIsMoniker</CommandFlag>
+    <Strings>
+      <ButtonText>Select Region</ButtonText>
+    </Strings>
+  </Button>
+  <Button guid="ElimarSoft_com_VSIX_Template" id="IDM_ES_CONTEXT_MENU1_GRP1_BUTTON2" priority="100" type="Button">
+    <Parent guid="ElimarSoft_com_VSIX_Template" id="IDM_ES_CONTEXT_MENU1_GRP1"/>
+    <Icon guid="ImageCatalogGuid" id="CSExtension"/>
+    <CommandFlag>IconIsMoniker</CommandFlag>
+    <Strings>
+      <ButtonText>Fill Region</ButtonText>
+    </Strings>
+  </Button>
+  <Button guid="ElimarSoft_com_VSIX_Template" id="IDM_ES_CONTEXT_MENU2_GRP1_BUTTON1" priority="100" type="Button">
+    <Parent guid="ElimarSoft_com_VSIX_Template" id="IDM_ES_CONTEXT_MENU2_GRP1"/>
+    <Icon guid="ImageCatalogGuid" id="CSExtension"/>
+    <CommandFlag>IconIsMoniker</CommandFlag>
+    <Strings>
+      <ButtonText>View Code</ButtonText>
+    </Strings>
+  </Button>
+  <Button guid="ElimarSoft_com_VSIX_Template" id="IDM_ES_CONTEXT_MENU2_GRP1_BUTTON2" priority="100" type="Button">
+    <Parent guid="ElimarSoft_com_VSIX_Template" id="IDM_ES_CONTEXT_MENU2_GRP1"/>
+    <Icon guid="ImageCatalogGuid" id="CSExtension"/>
+    <CommandFlag>IconIsMoniker</CommandFlag>
+    <Strings>
+      <ButtonText>Elimar Actions2</ButtonText>
+    </Strings>
+  </Button>
+  <Button guid="ElimarSoft_com_VSIX_Template" id="IDG_ES_CONTEXT_PROJECT1" priority="100" type="Button">
+    <Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_PROJECT_BUILDDEPENDENCIES"/>
+    <Icon guid="ImageCatalogGuid" id="CSExtension"/>
+    <CommandFlag>IconIsMoniker</CommandFlag>
+    <Strings>
+      <ButtonText>Elimar Soft Project Context</ButtonText>
+    </Strings>
+  </Button>
+  <Button guid="ElimarSoft_com_VSIX_Template" id="IDG_ES_CONTEXT_SOLUTION1" priority="100" type="Button">
+    <Parent guid="guidSHLMainMenu" id="IDG_VS_CTXT_SOLUTION_ADD"/>
+    <Icon guid="ImageCatalogGuid" id="CSExtension"/>
+    <CommandFlag>IconIsMoniker</CommandFlag>
+    <Strings>
+      <ButtonText>Elimar Soft Solution Context</ButtonText>
+    </Strings>
+  </Button>
+</Buttons>
+
+</Commands>
+
+<Symbols>
+  <GuidSymbol name="ElimarSoft_com_VSIX_Template" value="{53ED6E50-EC5A-4CC1-870D-B2744946EF95}">
+    <IDSymbol name="IDG_ES_ADDINS_GRP1" value="0x0100"/>
+    <IDSymbol name="IDG_ES_ADDINS_GRP1_MENU1" value="0x0101"/>
+    <IDSymbol name="IDG_ES_ADDINS_GRP1_MENU1_GRP1" value="0x0102"/>
+    <IDSymbol name="IDG_ES_ADDINS_GRP1_MENU1_GRP1_BUTTTON1" value="0x0103"/>
+    <IDSymbol name="IDG_ES_ADDINS_GRP1_MENU1_GRP1_BUTTTON2" value="0x0104"/>
+    <IDSymbol name="IDBI_ES_CONTEXT_BUTTON1" value="0x0105"/>
+    <IDSymbol name="IDBI_ES_CONTEXT_BUTTON2" value="0x0106"/>
+    <IDSymbol name="IDBI_ES_CONTEXT_BUTTON3" value="0x0107"/>
+    <IDSymbol name="IDBI_ES_CONTEXT_BUTTON4" value="0x0108"/>
+    <IDSymbol name="IDBI_ES_CONTEXT_BUTTON5" value="0x0109"/>
+    <IDSymbol name="IDM_ES_CONTEXT_MENU1" value="0x0110"/>
+    <IDSymbol name="IDM_ES_CONTEXT_MENU1_GRP1" value="0x0111"/>
+    <IDSymbol name="IDM_ES_CONTEXT_MENU1_GRP1_BUTTON1" value="0x0112"/>
+    <IDSymbol name="IDM_ES_CONTEXT_MENU1_GRP1_BUTTON2" value="0x0113"/>
+    <IDSymbol name="IDM_ES_CONTEXT_MENU2" value="0x0114"/>
+    <IDSymbol name="IDM_ES_CONTEXT_MENU2_GRP1" value="0x0115"/>
+    <IDSymbol name="IDM_ES_CONTEXT_MENU2_GRP1_BUTTON1" value="0x0116"/>
+    <IDSymbol name="IDM_ES_CONTEXT_MENU2_GRP1_BUTTON2" value="0x0117"/>
+    <IDSymbol name="IDG_ES_CONTEXT_PROJECT1" value="0x0118"/>
+    <IDSymbol name="IDG_ES_CONTEXT_SOLUTION1" value="0x0119"/>
+  </GuidSymbol>
+
+</Symbols>
+
+</CommandTable>
