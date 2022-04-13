@@ -15,5 +15,18 @@
 |Editor Context Menu
 |![image](https://user-images.githubusercontent.com/18607754/163110639-7d578206-3c4c-4b2c-8b83-531f65e6c24b.png)
 |Excel File
-![image](https://user-images.githubusercontent.com/18607754/163099322-de1b04a5-a4cb-49c3-85a3-3c723d34b7fa.png "Excel Table")
+|![image](https://user-images.githubusercontent.com/18607754/163099322-de1b04a5-a4cb-49c3-85a3-3c723d34b7fa.png "Excel Table")
+|My extensions
+|![image](https://user-images.githubusercontent.com/18607754/163117037-53919c83-8bd4-4099-8a1d-3ab51ada4991.png)
+
+
+|Here I share the extensions that I have programmed for personal use|->|
+|-|-
+|Insert Braces|Just for that|
+|Remove Braces|Just for that|
+|Delete Blank Lines|Just for that|
+|Fill Region|I use this when you need to duplicate code changing variable names, like rows to columns|
+|Select Fill Region|This is to select the code to be duplicated|
+
+
 
