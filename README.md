@@ -27,7 +27,6 @@
 |Delete Blank Lines|Just for that|
 |Fill Region|I use this when you need to duplicate code changing variable names, like rows to columns|
 |Select Fill Region|This is to select the code to be duplicated|
-|Select Fill Region|This is to select the code to be duplicated|
 
 ## Code example for Fill Region
 + Select the code to be duplicated (Click Extensions Select Fill Region)
@@ -35,7 +34,7 @@
 + The first region will include two identical commented rows.
 + Make required replacements in second line
 + (Click Extensions Fill Region)
-
++ #region -> ElimarSoft.com.Result will be filled with a modfied copy of #region -> ElimarSoft.com.Source
 
             #region -> ElimarSoft.com.Block
             //*******************************************************************************************************************
